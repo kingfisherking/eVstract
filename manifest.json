@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "eVstract",
+    "version": 1.0,
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "action": {
+
+    }
+
+}
