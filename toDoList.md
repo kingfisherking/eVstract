@@ -1,8 +1,6 @@
 # eVstract
 
-#### Video Extractor Extension
 
-the purpose of this extension is to make it easy to pull the source video file out of kimcartoon webpages
 
 #### to do list
 
