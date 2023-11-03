@@ -1,3 +1,6 @@
 var htmlcode = document.body.innerHTML;
-var match = /vidmoly.+ \.html/;
-console.log(htmlcode.match(match));
+var newPage = window.open();
+newPage.document.open();
+newPage.document.write("hello");
+
+// test to open new page and write text to it
