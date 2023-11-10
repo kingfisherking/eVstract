@@ -4,11 +4,16 @@
     "version": 1.0,
 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "scripting"
     ],
 
     "action": {
+        "default_title": "Click to use!"
+    },
 
+    "background": {
+        "service_worker": "background.js"
     }
 
 }
