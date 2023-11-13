@@ -13,7 +13,11 @@
     },
 
     "background": {
-        "service_worker": "background.js"
-    }
+        "service_worker": "background.js", "scripts": "thirdParty/jquery-3.7.1.min.js"
+    }, 
+
+    "content_scripts": [{
+        "js":["thirdParty/jquery-3.7.1.min.js", "eVstract.js", "test.js"]
+    }]
 
 }
